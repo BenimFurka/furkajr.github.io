@@ -1,31 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой заголовок</title>
     <style>
-        .header {
-            background-color: #479d55;
-            text-align: center;
-            padding: 15px;
-        }
-
-        .btn {
-            margin: 5px;
-            padding: 8px 16px;
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 5px;
-            text-decoration: none;
-            color: black;
-        }
-
-        .content {
-            background-color: white;
-            text-align: center;
-            padding: 20px;
-        }
         .button {
-            background-image: url('buttonadd.jpg'); /* Путь к текстуре */
+            background-image: url('add-to-discord.png'); /* Путь к текстуре */
             background-size: cover;
             width: 200px;
             height: 50px;
@@ -37,18 +18,19 @@
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
+        .header {
+            background-color: #479d55;
+            text-align: center;
+            padding: 10px;
+        }
+        .content {
+            background-color: white;
+            text-align: center;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <a href="#">Главная Страница</a>
-        <a href="#">Политика конфиденциальности</a>
-        <a href="#">Права использования</a>
-        <a href="#">Добавить в Discord</a>
-    </div>
-    <div class="content">
-        <p>Еее, сайт фурки младшего.</p>
-    </div>
+    <button class="button" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1103727781952635033'">Перейти на ссылку</button>
 </body>
 </html>
