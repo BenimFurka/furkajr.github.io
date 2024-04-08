@@ -6,18 +6,22 @@
     <title>Мой заголовок</title>
     <style>
         .button {
-            background-image: url('add-to-discord.png'); /* Путь к текстуре */
-            background-size: cover;
             width: 200px;
             height: 50px;
             border: none;
-            color: white;
+            color: #479d55;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
+        }
+
+        #buttonadd {
+            background-image: url('add-to-discord.png'); /* Путь к текстуре для кнопки 1 */
+            background-size: cover;
+        }
         .header {
             background-color: #479d55;
             text-align: center;
@@ -31,6 +35,6 @@
     </style>
 </head>
 <body>
-    <button class="button" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1103727781952635033'">Перейти на ссылку</button>
+    <button id="buttonadd" class="button" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1103727781952635033'">Добавить бота</button>
 </body>
 </html>
