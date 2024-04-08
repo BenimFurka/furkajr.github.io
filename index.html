@@ -1,26 +1,40 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <title>Пример сайта с 4 заголовками</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш заголовок</title>
     <style>
-        body {
-            background-color: white;
-            color: black;
-            font-family: Arial, sans-serif;
+        .header {
+            background-color: #479d55;
+            text-align: center;
+            padding: 10px;
         }
-        h1 {
-            font-size: 24px;
+
+        .btn {
+            margin: 5px;
+            padding: 8px 16px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .content {
+            background-color: white;
+            text-align: center;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Заголовок 1</h1>
-    <p>Текст для заголовка 1.</p>
-    <h1>Заголовок 2</h1>
-    <p>Текст для заголовка 2.</p>
-    <h1>Заголовок 3</h1>
-    <p>Текст для заголовка 3.</p>
-    <h1>Заголовок 4</h1>
-    <p>Текст для заголовка 4.</p>
+    <div class="header">
+        <a href="#">Главная Страница</a>
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Права использования</a>
+        <a href="#">Добавить в Discord</a>
+    </div>
+    <div class="content">
+        <p>Здесь можно написать ваш текст или содержимое страницы.</p>
+    </div>
 </body>
 </html>
